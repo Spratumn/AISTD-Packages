@@ -17,8 +17,8 @@
 
 ## 2. 打包好的python环境
 
-| 名称                                                         | 依赖                                                     | 备注                |
-| ------------------------------------------------------------ | -------------------------------------------------------- | ------------------- |
-| [runtime-py39-cuda12.1.zip](https://pan.baidu.com/s/1Yc8m6_Sx4doVZEuKCpN9eQ?pwd=k5br) | [requirements.txt](./requirements/requirements-py39.txt) | 适用软件版本: 3.4.0 |
-|                                                              |                                                          |                     |
+| 名称                  | 下载地址                                                     | 依赖                                                     | 备注                |
+| --------------------- | ------------------------------------------------------------ | -------------------------------------------------------- | ------------------- |
+| runtime-py39-cuda12.1 | [百度云盘](https://pan.baidu.com/s/1Yc8m6_Sx4doVZEuKCpN9eQ?pwd=k5br) / [Google Drive](https://drive.google.com/file/d/13Jg-Mf56iJ1Qn4ylW76vf70dbWsE7njO) | [requirements.txt](./requirements/requirements-py39.txt) | 适用软件版本: 3.4.0 |
+|                       |                                                              |                                                          |                     |
 
