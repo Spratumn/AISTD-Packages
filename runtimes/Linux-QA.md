@@ -17,9 +17,9 @@ Aborted (core dumped)
 sudo apt-get install libxcb-cursor0
 ```
 
-### 2. 在应用部署中，在已安装好docker的情况下点击加载镜像仍提示docker软件未打开
+### 2. 在应用部署中，在已安装好docker的情况下点击加载镜像仍提示docker软件未运行
 
 **解决方法：**
-参考[rktoolkit-readme](rktoolkits\readme.md)，设置docker命令权,避免使用sudo命令执行docker
+参考[rktoolkit/readme.md](../rktoolkits/readme.md)，设置docker命令权,避免使用sudo命令执行docker
 
 ### 3. Linux端用户工具安装和授权[参考](https://h.virbox.com/docs/usermanual/tools/Virbox-UserTool/VirboxLM-User-License-Tool-Linux)
