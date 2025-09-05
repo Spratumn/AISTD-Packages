@@ -1,4 +1,6 @@
-## 运行错误
+
+
+## 测试中出现的常见运行错误
 
 ### 1. 运行main.elf，出现如下qt.qpa.plugin相关错误
 ```
@@ -22,4 +24,8 @@ sudo apt-get install libxcb-cursor0
 **解决方法：**
 参考[rktoolkit/readme.md](../rktoolkits/readme.md)，设置docker命令权,避免使用sudo命令执行docker
 
-### 3. Linux端用户工具安装和授权[参考](https://h.virbox.com/docs/usermanual/tools/Virbox-UserTool/VirboxLM-User-License-Tool-Linux)
+## Linux端用户工具安装和授权[参考](https://h.virbox.com/docs/usermanual/tools/Virbox-UserTool/VirboxLM-User-License-Tool-Linux)
+
+
+
+<font color='red'>**建议：鉴于Linux端桌面系统在显示方面存在诸多库支持问题，在条件允许的情况下建议优先选择使用Windows版。**</font>
