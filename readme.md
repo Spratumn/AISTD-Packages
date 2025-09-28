@@ -2,5 +2,7 @@ Download Packages from [Google Drive](https://drive.google.com/drive/folders/1uX
 
 - runtime：软件运行环境包；
 - rktoolkit：rknn转换docker镜像；
-- thirdparty：第三方软件工具。
+- thirdparty：第三方软件工具；
+- toolchain：交叉编译工具
+- weights：模型预训练权重。
 
