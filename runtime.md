@@ -7,21 +7,13 @@
 - 创建python环境：通过conda创建python环境，这里以runtime为环境名作为示例：
 
   ```sh
-  # AISTD-A
+  # AISTDA
   1. 创建名为aistda的python环境
-  conda create -n aistda python=3.9
+  conda create -n aistda python=3.12
   conda activate aistda
   # 2. 安装必要库
-  conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-  pip install colorlog tqdm lxml opencv-python matplotlib pyyaml onnx imageio thop imageio-ffmpeg pycryptodome PySide6-Fluent-Widgets
+  pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu126
+  pip install colorlog tqdm lxml opencv-python matplotlib pyyaml onnx imageio thop imageio-ffmpeg pycryptodome docker pyside6
   ```
-  ```sh
-  # AISTD-B
-  # 1. 创建名为aistdb的python环境
-  conda create -n aistdb python=3.9
-  conda activate aistdb
-  # 2. 安装必要库
-  conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-  pip install colorlog tqdm lxml opencv-python matplotlib pyyaml onnx imageio thop huggingface-hub imageio-ffmpeg pycryptodome PySide6-Fluent-Widgets
-  ```
+
 
